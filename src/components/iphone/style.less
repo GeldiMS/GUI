@@ -1,0 +1,87 @@
+@import '~style/helpers';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	//background-image: url('../../assets/backgrounds/daylight.jpg');
+	background:url('https://www.igitblog.com/wp-content/uploads/2014/07/owl-ipho9.gif') repeat;
+	//background-color: black;
+	background-size:contain;
+	color: #fff;
+	width: 414px;
+	height: 736px;
+	text-align:center;;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	flex-direction:column;
+	flex: 1;
+}
+.details {
+	flex: 4;
+}
+.date {
+	flex: 1;
+	font-size: 1.7em;
+	font-weight: 400;
+}
+.city {
+	flex: 1;
+	font-size: 1.7em;
+	font-weight: 400;
+	position: relative;
+	right: 120px;
+	bottom: 30px;
+	//color: darkblue;
+}
+.conditions {
+	flex: 1;
+	font-size: 1em;
+	position: relative;
+	right: 120px;
+	bottom: 120px;
+	//color: darkblue;
+}
+.temperature {
+	flex: 2;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: 0px;
+	position: relative;
+	right: 100px;
+	bottom: 120px;
+	//color: darkblue;
+}
+.filled:after {
+	content: "°C";
+	margin: 0 0 0 0.5rem;
+	font-size: 0.3em;
+	font-weight: 200;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+
+.city:after{
+	display: inline-block;
+}
+
+.image{
+	//content:url("http://www.pngmart.com/files/3/Sun-PNG-Transparent-Image.png");
+	content: url("http://www.pngmart.com/files/4/Moon-PNG-Image.png");
+	height: 100px;
+	width: 110px;
+	position: relative;
+	right: -270px;
+	top: 0px;
+}
+
+.hour{
+	font-size: 0.8em;
+	letter-spacing: 5px;
+	font-family:sans-serif;
+	font-weight: bold;
+}
