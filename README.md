@@ -66,11 +66,13 @@ npm start
 
 ## API References
 
-**http://api.wunderground.com/api/key/conditions/q/UK/London.json
+**http://api.wunderground.com/api/key/conditions/q/"+country+"/"+city+".json;
 
-**http://api.wunderground.com/api/key/hourly/q/UK/London.json
+**http://api.wunderground.com/api/key/hourly/q/"+country+"/"+city+".json;
 
-**http://api.wunderground.com/api/key/forecast10day/q/UK/London.json
+**http://api.wunderground.com/api/key/forecast10day/q/"+country+"/"+city+".json;
+
+**https://ipapi.co/json/
 
 
 
