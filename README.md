@@ -77,5 +77,7 @@ npm start
 ## Screenshots
 
 !["HomePage"](http://i68.tinypic.com/2r4op6f.png)
+!["SnowConditions"](http://i63.tinypic.com/33pbh4h.png)
+!["WeeklyReport"](http://i64.tinypic.com/ei1qar.png)
 
 
